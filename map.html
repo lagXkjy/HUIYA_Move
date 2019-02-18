@@ -1,0 +1,46 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+    <title>汇亚位置</title>
+    <link rel="icon" sizes="any" mask href="./huiya.ico" />
+    <link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css"/>
+    <script src="http://webapi.amap.com/maps?v=1.4.6&key=101679a77391ea5104e20d3ebcd92f4d"></script>
+    <script type="text/javascript" src="http://cache.amap.com/lbs/static/addToolbar.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?8729a342ce6630300bfd557de9c8083d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</head>
+<body>
+<div id="container"></div>
+<!--<div id="tip" class="tip">鼠标移入点标记试试</div>-->
+<script>
+    var map = new AMap.Map('container', {
+        resizeEnable: true,
+        center: [121.596553,31.188382],
+        zoom: 13
+    });
+    var marker = new AMap.Marker({
+        position: map.getCenter()
+    });
+    marker.setMap(map);
+    // 设置鼠标划过点标记显示的文字提示
+    marker.setTitle('上海市浦东新区张衡路666弄（盛大全球研发中心）2号楼210室');
+
+    // 设置label标签
+    marker.setLabel({//label默认蓝框白底左上角显示，样式className为：amap-marker-label
+        offset: new AMap.Pixel(20, 20),//修改label相对于maker的位置
+        content: "上海汇亚信息科技有限公司"
+    });
+
+</script>
+</body>
+</html>

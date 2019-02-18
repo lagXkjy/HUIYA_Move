@@ -1,0 +1,177 @@
+*{
+    padding:0;
+    margin:0;
+    border:0;
+    box-sizing: border-box;
+    font-family: '黑体'
+}
+body,html{
+    height: 100%;
+}
+.top{
+    width: 100%;
+    height: 5.33rem;;
+}
+/* 字体 */
+.fon-48{
+    font-size: 0.64rem;
+}
+.fon-42{
+    font-size: 0.56rem;
+}
+.fon-26{
+    font-size: .34rem;
+}
+.fon-36{
+    font-size: 0.48rem;
+}
+.fon-30{
+    font-size: .4rem;
+}
+.line-50{
+    line-height: .666rem;
+}
+/* 颜色 */
+.white{
+    color: #fff;
+}
+.blue{
+    color: #004290;
+}
+.bg-f3{
+background-color: #f5f6f9;
+}
+.c40{
+    color: #404040;
+}
+.orgin{
+    color: #ff9c02;
+}
+.bg-blue{
+    background-color: #004290;
+}
+.c5{
+    color: #555;
+}
+.c86{
+    color: #868686;
+}
+.padding-tb-65{
+    padding-top: 0.86rem;
+    padding-bottom: .86rem;
+}
+.bg-fff{
+    background-color: #fff;
+}
+.padding-lr-30{
+    padding-left: .4rem;
+    padding-right: .4rem;
+}
+.margin-b-40{
+    margin-bottom: .533rem;
+}
+.margin-b-20{
+    margin-bottom: .26rem;
+}
+.margin-b-5{
+    margin-bottom: 0.06rem;
+}
+.margin-b-10{
+    margin-bottom: .13rem;
+}
+.padding-tb-30{
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+}
+.padding-tb-24{
+    padding-top: .32rem;
+    padding-bottom: .32rem;
+}
+.border-b-1{
+    border-bottom: 1px solid #dfdfdf;
+}
+.leftimg{
+    width: .37rem;
+
+}
+/* 结构 */
+.img-phone{
+    width: .50rem;
+    margin-right: .26rem;
+}
+.bold{
+    font-weight: bold;
+}
+.text-center{
+    text-align: center;
+}
+.border-l-2{
+    border-left: 5px solid #004290;
+}
+.border-l-3{
+    border-left: 5px solid #fff;
+    padding-left: 5px;
+}
+.title{
+    height: .53rem;
+    padding-left: 5px;
+}
+/* flex 布局 */
+.flex{
+    display: flex;
+    display: -webkit-flex;
+}
+
+.f-center{
+    align-items: center;
+    -webkit-align-items: center;
+}
+.f-between{
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+}
+.t-center{
+    justify-content:center;
+    -webkit-justify-content: center;
+}
+.f-around{
+    justify-content: space-around;
+    -webkit-justify-content:  space-around;
+}
+.flex1{
+    flex: 1;
+    -webkit-flex:1;
+}
+.border-r-1{
+    border-right: 1px solid #969696;
+}
+/* 底部 */
+.outer-big{
+    padding-bottom: 1.33rem;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1.33rem;
+}
+.footer div{
+    height: 100%;
+    width: 21.33%;
+}
+.footer div:last-child{
+    width: 36%;
+    background-color: #ff9c02;
+}
+.footer div a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    line-height: 1.33rem;
+}
+.phone{
+    width: .74rem;
+    vertical-align: middle;
+}
