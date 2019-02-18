@@ -1,0 +1,48 @@
+h1{
+    display: none;
+}
+.b-center{
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+.a-center{
+    align-items: center;
+    -webkit-align-items: center;
+}
+.center{
+    text-align: center;
+}
+.white{
+    color: #ffffff;
+}
+.fon-64{
+    font-size: 0.64rem;
+}
+.fon-32{
+    font-size: 0.32rem;
+}
+.fon-48{
+    font-size: 0.48rem;
+}
+.fon-36{
+    font-size: 0.34rem;
+}
+.c86{
+    color: #868686;
+}
+.fon-42{
+    font-size: 0.42rem;
+}
+.white-bg{
+    background-color: #fff!important;
+}
+.c40{
+    color: #404040;
+}
+.last{
+    background-color: #383d43;
+    height: 4.586rem;
+}
+.margin-b-53{
+    margin-bottom: 0.533rem;
+}
