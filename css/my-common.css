@@ -42,6 +42,8 @@ h1{
 .last{
     background-color: #383d43;
     height: 4.586rem;
+    border-bottom: 1px solid #fff;
+    box-sizing: border-box;
 }
 .margin-b-53{
     margin-bottom: 0.533rem;
